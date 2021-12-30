@@ -8,4 +8,4 @@ git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git
 git clone -b master https://github.com/jerrykuku/luci-app-argon-config.git
 popd
 
-sed -i 's/luci-theme-bootstrap/luci-theme-argon-18.06/g' ./feeds/luci/collections/luci/Makefile
+sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' ./feeds/luci/collections/luci/Makefile
